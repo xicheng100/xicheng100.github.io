@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>汐城</title>
+<title>学习python爬取网页图片 | 汐城</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,8 +18,15 @@
 
 
 
-    <meta name="description" content="个人博客空间">
-    
+    <meta name="description" content="一、需要安装requests
+1、Windows键+R，回车。输入cmd
+
+2、输入pip install requests
+
+二、程序
+import requests
+pic = requests.get('https://p.ssl.q..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -89,27 +96,32 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://xicheng100.github.io/xicheng100.github.io/post/xue-xi-python-pa-qu-wang-ye-tu-pian/">
-                  <h2 class="post-title">学习python爬取网页图片</h2>
-                </a>
-                <div class="post-date">
-                  2020-03-27
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+          <div class="post-detail">
+            <h2 class="post-title">学习python爬取网页图片</h2>
+            <div class="post-date">2020-03-27</div>
+            
+            <div class="post-content" v-pre>
+              <p>一、需要安装requests<br>
+1、Windows键+R，回车。输入cmd<br>
+<img src="https://xicheng100.github.io/xicheng100.github.io/post-images/1585312102617.png" alt="" loading="lazy"><br>
+2、输入pip install requests<br>
+<img src="https://xicheng100.github.io/xicheng100.github.io/post-images/1585312109853.png" alt="" loading="lazy"><br>
+二、程序<br>
+import requests<br>
+pic = requests.get('https://p.ssl.qhimg.com/dmsmty/74_74_100/t0117cd78b141e0bfa2.png')#在你需要的爬取的网页F12、ctrl+shift+c、点击你需要的图片找到src=“”里面的<br>
+with open('python.png','wb') as f:#保存的文件名<br>
+f.write(pic.content)<br>
+<img src="https://xicheng100.github.io/xicheng100.github.io/post-images/1585312686306.png" alt="" loading="lazy"><br>
+三、就会生成一个.png的文件</p>
+<p>----------------------------------汐城----------------------------------------</p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+
+            
+
+          </div>
 
         </div>
       </div>
