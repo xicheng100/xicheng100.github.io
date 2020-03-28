@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xicheng100.coding-pages.com</id>
+    <id>https://xicheng.coding-pages.com</id>
     <title>汐城</title>
-    <updated>2020-03-28T09:45:46.976Z</updated>
+    <updated>2020-03-28T09:46:42.941Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://xicheng100.coding-pages.com"/>
-    <link rel="self" href="https://xicheng100.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="https://xicheng.coding-pages.com"/>
+    <link rel="self" href="https://xicheng.coding-pages.com/atom.xml"/>
     <subtitle>个人博客空间</subtitle>
-    <logo>https://xicheng100.coding-pages.com/images/avatar.png</logo>
-    <icon>https://xicheng100.coding-pages.com/favicon.ico</icon>
+    <logo>https://xicheng.coding-pages.com/images/avatar.png</logo>
+    <icon>https://xicheng.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 汐城</rights>
     <entry>
         <title type="html"><![CDATA[学习python爬取网页图片]]></title>
-        <id>https://xicheng100.coding-pages.com/post/xue-xi-python-pa-qu-wang-ye-tu-pian/</id>
-        <link href="https://xicheng100.coding-pages.com/post/xue-xi-python-pa-qu-wang-ye-tu-pian/">
+        <id>https://xicheng.coding-pages.com/post/xue-xi-python-pa-qu-wang-ye-tu-pian/</id>
+        <link href="https://xicheng.coding-pages.com/post/xue-xi-python-pa-qu-wang-ye-tu-pian/">
         </link>
         <updated>2020-03-27T12:20:22.000Z</updated>
         <content type="html"><![CDATA[<p>一、需要安装requests<br>
 1、Windows键+R，回车。输入cmd<br>
-<img src="https://xicheng100.coding-pages.com/post-images/1585312102617.png" alt="" loading="lazy"><br>
+<img src="https://xicheng.coding-pages.com/post-images/1585312102617.png" alt="" loading="lazy"><br>
 2、输入pip install requests<br>
-<img src="https://xicheng100.coding-pages.com/post-images/1585312109853.png" alt="" loading="lazy"><br>
+<img src="https://xicheng.coding-pages.com/post-images/1585312109853.png" alt="" loading="lazy"><br>
 二、程序<br>
 import requests<br>
 pic = requests.get('https://p.ssl.qhimg.com/dmsmty/74_74_100/t0117cd78b141e0bfa2.png')#在你需要的爬取的网页F12、ctrl+shift+c、点击你需要的图片找到src=“”里面的<br>
 with open('python.png','wb') as f:#保存的文件名<br>
 f.write(pic.content)<br>
-<img src="https://xicheng100.coding-pages.com/post-images/1585312686306.png" alt="" loading="lazy"><br>
+<img src="https://xicheng.coding-pages.com/post-images/1585312686306.png" alt="" loading="lazy"><br>
 三、就会生成一个.png的文件</p>
 <p>----------------------------------汐城----------------------------------------</p>
 ]]></content>
