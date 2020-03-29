@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xicheng100.github.io</id>
     <title>汐城</title>
-    <updated>2020-03-29T04:48:26.714Z</updated>
+    <updated>2020-03-29T12:47:57.439Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xicheng100.github.io"/>
     <link rel="self" href="https://xicheng100.github.io/atom.xml"/>
@@ -20,7 +20,7 @@
 1、python程序<br>
 原作者：https://github.com/mkdir700/chaoxing_auto_sign<br>
 我用他前期版本增加可一个server酱推送#程序必须在电脑上运行一次生成cookies.json文件里面是储存cookies的<br>
-<img src="https://xicheng100.github.io/post-images/1585456333090.png" alt="" loading="lazy"><br>
+<img src="https://xicheng100.github.io/post-images/1585486068676.png" alt="" loading="lazy"><br>
 2、挂腾讯云函数云<br>
 进入腾讯云的官网进入函数云服务#https://cloud.tencent.com/product/scf（直通车）<br>
 开通成功新建一个函数服务，如图所示<br>
